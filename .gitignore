@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Data and models
+datasets/*
+!datasets/README.txt
+model.joblib
+vectorizer.joblib
+metrics.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
